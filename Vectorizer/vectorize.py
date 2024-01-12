@@ -23,10 +23,10 @@ def vectorize(sentence,model_path_index):
     
     elif model_path_index == 5:
         from openai import OpenAI
-        from dotenv import load_dotenv
+        #from dotenv import load_dotenv
         import os
 
-        load_dotenv()
+        #load_dotenv()
  
         OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
         client = OpenAI()
