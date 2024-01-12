@@ -5,7 +5,8 @@ from transformers import AutoTokenizer,AutoModel,pipeline
 def vectorize(sentence,model_path_index):
     #sentence = input("Your sentence: ")
     if model_path_index == 1:
-        path = "Vectorizer\google-canine-c"
+        #path = "Vectorizer\google-canine-c"
+        path = "https://github.com/Exbexz/Islamic-Chatbot/tree/c59d607538d69bb0d27101b1e8da71d574610934/Vectorizer/google-canine-c"
 
     elif model_path_index == 2:
         path = "Vectorizer\malaysian-debartav-base"
