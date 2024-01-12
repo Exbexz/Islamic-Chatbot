@@ -18,4 +18,3 @@ transformers
 streamlit
 fuzzywuzzy
 langchain
-sqlite
