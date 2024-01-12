@@ -6,10 +6,10 @@ from PIL import Image
 import numpy as np
 import smart_search as ai
 import template as t
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import os
 
-load_dotenv()
+#load_dotenv()
 
 open_api_key = os.getenv("OPENAI_API_KEY")
 
