@@ -68,7 +68,7 @@ def _getAnswer(cursor,index):
 	return answer[0]
 
 def getAnswerAndScore(question):
-	path = 'Data\model-4-database.db'
+	path = 'Data\model-5-database.db'
 	connection = sqlite3.connect(path) 
 	cursor = connection.cursor()
 
@@ -89,8 +89,8 @@ def getAnswerAndScore(question):
 
 
 def getAnswer(question):
-	path = 'Data\model-5-database.db'
-	model = 5
+	path = 'Data\model-1-database.db'
+	model = 1
 
 	connection = sqlite3.connect(path) 
 	cursor = connection.cursor()
